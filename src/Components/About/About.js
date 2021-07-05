@@ -56,15 +56,15 @@ const AboutMission =styled.div`
         height: 18rem;
         };
 
-    //@media(max-width: 1000px) {
-    //  h3 {
-    //        margin: 10vw 0 5vw 0;
-    //        }
-    //}
-    //
-    //@media(min-width: 800px){
-    //    margin: 10vw;
-    //    }
+    @media(max-width: 1000px) {
+      h3 {
+            margin: 10vw 0 5vw 0;
+            }
+    }
+
+    @media(min-width: 800px){
+        margin: 10vw;
+        }
 `;
 
 const Slide = styled.div`
